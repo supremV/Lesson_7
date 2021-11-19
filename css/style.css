@@ -1,0 +1,218 @@
+/*header-start*/
+body{
+    width: 1920px;
+    height: 1080px;
+}
+.logo {
+    font-size: 32px;
+    color: #3D37F1;
+    margin-left: 132px;   
+    font-family: 'Lato', sans-serif;
+}
+.ui-color {
+    font-weight: lighter;  
+    color: #4B647E;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1708px;
+}
+.nav {
+    flex: 1;
+    text-align: right ;
+    font-family: 'Lato', sans-serif;
+    margin-right: 287px; 
+}
+.navli {
+    display: inline-block;
+    margin-left: 50px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold; 
+    color: #3D37F1;
+}
+
+/*header-end*/
+
+/*section1-start*/
+
+
+.sec1text{
+    width: 600px;
+    height: 203px;
+    font-size: 78px;
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    margin-left: 240px;
+    margin-top: 240px;
+}
+
+.sec1text2{
+    width: 602px;
+    height: 103px;
+    font-size: 22px;
+    margin-left: 240px;
+    margin-top: 430px;
+    font-family: 'Lato', sans-serif;
+}
+
+.sec1div{
+    position: absolute;
+
+}
+.img1{
+    width: 801px;
+    height: 526.63px;
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 200px;
+}
+
+.img2{
+    width: 30.29px;
+    height: 30.97px;
+    position: absolute;
+    margin-top: 83px;
+    margin-left: 260px;
+}
+.h2text {
+    width: 263px;
+    height: 76px;
+    background: #3D37F1;
+    color: white;
+    border-radius: 39px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    margin-top: 60px;
+    margin-left: 225px;
+    cursor: pointer;
+}
+
+/*section1-end*/
+
+/*section2*/
+
+.sec2title{
+    width: 140px;
+    height: 24px;
+    color: #3D37F1;
+    font-size: 18px;
+    position: absolute;
+    margin-top: 1000px;
+    margin-left: 850px;
+    font-family: 'Lato', sans-serif;
+    
+}
+.sec2par{
+    width: 578px;
+    height: 48px;
+    font-size: 38px;
+    color: #5A5454;
+    position: absolute;
+    margin-top: 1050px;
+    margin-left: 650px;
+    font-family: 'Lato', sans-serif;
+}
+.sec2desc{
+    width: 600px;
+    height: 85px;
+    font-size: 18px;
+    color: #747474;
+    position: absolute;
+    margin-top: 1100px;
+    margin-left: 650px;
+    font-family: 'Lato', sans-serif;
+}
+
+/*section2-end*/
+
+
+/*block section-start*/
+
+.allblock {
+    width: 1170px;
+    
+    margin-left: 330px;
+    margin-top: 1200px;
+}
+.block {
+    width: 371px;
+    height: 451px;
+    display: flex;
+    align-items: center;
+     justify-content: center;
+}
+.block:nth-child(1) {
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+.block:nth-child(2) {
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+.block:nth-child(3) {
+    background-image: linear-gradient(-225deg, #65379B 0%, #886AEA 53%, #6457C6 100%);
+}
+.block:nth-child(4) {
+    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+    margin-top: 30px;
+}
+.block:nth-child(5) {
+    background-image: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+    margin-top: 30px;
+}
+.block:nth-child(6) {
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    margin-top: 30px;
+}
+.div6block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.block-text {
+    width:770px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+    color: white;
+}
+.block-h2 {
+    margin-top: 61px;
+    font-size: 22px;
+    font-family: 'Lato', sans-serif;
+}
+.blcok-p {
+    margin-top: 14px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    width: 328px;
+    text-align: center;
+    margin-left: 21px; 
+}
+.More {
+    width: 131px;
+    height: 45px;
+    border: 4px solid white ;
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 14px 118px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+.More:hover {
+    background: white;
+    color: #4B647E;
+}
+.block-img {
+    margin-top: 88px;
+}
+
+/*block section-end*/
